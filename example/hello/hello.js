@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '../lib/render';
+import { render } from '../../lib/render';
 import cursorVertexShader from './shaders/cursor.vert'
 import cursorFragmentShader from './shaders/cursor.frag'
 

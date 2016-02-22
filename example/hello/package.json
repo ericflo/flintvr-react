@@ -1,5 +1,5 @@
 {
-  "name": "flint-hello-simple",
+  "name": "flint-react-example-hello",
   "version": "0.0.0",
   "description": "Hello world for Flint VR",
   "main": "build/hello.js",
@@ -21,7 +21,7 @@
     "babel-loader": "~6.1.0",
     "webpack": "~1.12.4",
     "raw-loader": "~0.5.1",
-    "react": "~0.14.3",
+    "react": "~0.14.7",
     "invariant": "~2.2.0",
     "lodash": "~3.10.1"
   },

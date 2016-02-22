@@ -10,7 +10,7 @@
     "lib": "./lib"
   },
   "dependencies": {
-    "winston": "~0.14.3",
+    "react": "~0.14.7"
   },
   "author": "Eric Florenzano",
   "license": "BSD-3-Clause"
