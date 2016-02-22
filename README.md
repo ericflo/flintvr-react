@@ -7,10 +7,12 @@ This is a small shim library to wrap FlintVR with React.js bindings.
 How to Use
 ----------
 
-Please see the example project. Other than that, this is just regular react
-but you can use 'scene' and 'model' components.
+Please see the example project. Basically this is just regular react
+but you can use 'scene' and 'model' components from FlintVR.
 
 ```javascript
+import { render } from 'flint-react';
+
 global.vrmain = function(env) {
   render(
     <scene>
