@@ -1,0 +1,41 @@
+{
+  "name": "flint-hello-simple",
+  "version": "0.0.0",
+  "description": "Hello world for Flint VR",
+  "main": "build/hello.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "python -m SimpleHTTPServer 8000"
+  },
+  "author": "Eric Florenzano",
+  "license": "ISC",
+  "dependencies": {
+    "flint-react": "~0.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.1.4",
+    "babel-preset-es2015": "~6.1.4",
+    "babel-preset-react": "~6.1.4",
+    "babel-preset-stage-0": "~6.1.2",
+    "babel-preset-stage-2": "~6.1.2",
+    "babel-preset-stage-3": "~6.1.2",
+    "babel-preset-stage-1": "~6.1.2",
+    "babel-core": "~6.1.4",
+    "babel-loader": "~6.1.0",
+    "webpack": "~1.12.4",
+    "raw-loader": "~0.5.1",
+    "react": "~0.14.3",
+    "invariant": "~2.2.0",
+    "lodash": "~3.10.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0",
+      "stage-1",
+      "stage-2",
+      "stage-3"
+    ]
+  }
+}

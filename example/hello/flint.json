@@ -1,0 +1,7 @@
+{
+  "title": "Hello",
+  "files": [
+    "build/hello.js"
+  ],
+  "entrypoint": "build/hello.js"
+}
